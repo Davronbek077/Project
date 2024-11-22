@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.header-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-list li{
+    font-size: 15px;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.header-logo img{
+    width: 50px;
+    height: 32px;
+}
+
+.header-logo h2{
+    padding-top: 8px;
+}
+
+.header-icon img{
+    width: 19px;
+    height: 19px;
+}
+
+.header-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    gap: 20px;
+}
+
+.banner-wrap{
+    position: relative;
+    bottom: 18px;
+    top: 16px;
+}
+
+.banner-wrap img{
+    width: 100%;
+}
+
+.banner-wrap .banner-logo{
+    position: relative;
+    top: 132px;
+    text-align: center;
+}
+
+.banner-wrap .banner-logo img{
+    width: 50px;
+    height: 30px;
+}
+
+.banner{
+    text-align: center;
+    position: relative;
+    bottom: 220px;
+}
+
+.banner-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.banner h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.banner-name .title{
+    font-weight: 500;
+}
+
+.banner-name .icon{
+    font-size: 22px;
+    padding-top: 4px;
+    font-weight: 500;
+}
+
+.banner-name p{
+    font-weight: 300;
+}
+
+.contact-text{
+    width: 36%;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 133px;
+
+}
+
+.contact-text h2{
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.contact-text p{
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
+.banner-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+    gap: 150px;
+}
+
+.info-text h3{
+    font-weight: 500;
+}
+
+.info-text p{
+    width: 200px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 42px;
+}
+
+.info img{
+    width: 18px;
+    height: auto;
+    position: relative;
+    bottom: 38px;
+}
+
+.banner-submit{
+    position: relative;
+    top: 55px;
+}
+
+.submit{
+    padding-bottom: 28px;
+}
+
+.submit input{
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    padding: 18px 160px;
+    color: #9F9F9F;
+    padding-left: 23px;
+    font-size: 13px;
+}
+
+.submit .massage{
+    padding-bottom: 50px;
+}
+
+.submit p{
+    padding-bottom: 18px;
+}
+
+.submit-btn{
+    padding-top: 28px;
+    padding-bottom: 125px;
+}
+
+.submit-btn a{
+    border: none;
+    border-radius: 5px;
+    background-color: #B88E2F;
+    padding: 15px 72px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.shop-service{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 58px;
+    border: none;
+    background-color: #FAF3EA;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.service-text{
+    line-height: 33px;
+}
+
+.service-text h3{
+    font-weight: 600;
+}
+
+.service-text p{
+    color: #898989;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 50px;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.footer-text h3{
+    margin-bottom: 45px;
+}
+
+.footer-text p{
+    width: 300px;
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
+.footer{
+    line-height: 55px;
+}
+
+.footer .footer-title{
+    color: #9F9F9F;
+}
+
+.footer p{
+    font-weight: 500;
+}
+
+.newsletter{
+    margin-top: 15px;
+}
+
+.newsletter p{
+    font-weight: 500;
+    color: #9F9F9F;
+    padding-bottom: 40px;
+}
+
+.news-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.news-input input{
+    border: none;
+    color: #9F9F9F;
+    font-family: "Poppins", sans-serif;
+}
+
+.news-input a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+
+footer p{
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1230px) {
+    .header-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 380px;
+    }
+
+    .header-list li{
+        font-size: 18px;
+    }
+
+    .header-icon{
+        margin-left: 300px;
+    }
+
+    .banner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .banner-name{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .header-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 380px;
+    }
+
+    .header-list li{
+        font-size: 18px;
+    }
+
+    .header-icon{
+        margin-left: 300px;
+    }
+
+    .contact-text{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header-list{
+        margin-right: 50px;
+    }
+
+    .header-icon{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .contact-text{
+        margin-left: 400px;
+        margin-top: 50px;
+    }
+
+    .banner-wrapper{
+        margin-left: 370px;
+    }
+
+    .shop-service{
+        gap: 130px;
+        margin-left: 230px;
+    }
+
+    .footer-wrap{
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .footer-wrap{
+        width: 100%;
+    }
+
+    .banner-wrap{
+        min-width: 190%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-wrap{
+        min-width: 290%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner-wrap{
+        min-width: 340%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner-wrap{
+        min-width: 400%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .footer-wrap{
+        position: relative;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .banner-wrapper{
+        position: relative;
+        left: 150px;
+    }
+
+    .contact-text{
+        position: relative;
+        left: 70px;
+    }
+
+    .shop-service{
+        position: relative;
+        left: 150px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 1245px) {
+    .banner{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 10px;
+        position: absolute;
+        bottom: auto;
+    }
+
+    .banner-logo{
+        position: absolute;
+        bottom: 500px;
+    }
+
+    .banner-wrap{
+        width: 150%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .banner{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .banner-logo{
+        position: absolute;
+        bottom: 500px;
+    }
+
+    .banner-wrap{
+        width: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner .banner-text{
+        padding-top: 18px;
+    }
+    
+    .banner .banner-title{
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+    
+    .banner .banner-text{
+        font-weight: 400;
+    }
+    
+}

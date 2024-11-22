@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.header-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-list li{
+    font-size: 15px;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.header-logo img{
+    width: 50px;
+    height: 32px;
+}
+
+.header-logo h2{
+    padding-top: 8px;
+}
+
+.header-icon img{
+    width: 19px;
+    height: 19px;
+}
+
+.header-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    gap: 20px;
+}
+
+.banner-wrap{
+    position: relative;
+    bottom: 18px;
+}
+
+.banner-wrap img{
+    width: 100%;
+    height: 400px;
+}
+
+.banner-wrap .banner-logo{
+    position: relative;
+    top: 132px;
+    text-align: center;
+}
+
+.banner-wrap .banner-logo img{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+}
+
+.banner{
+    text-align: center;
+    position: relative;
+    bottom: 220px;
+}
+
+.banner-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.banner h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.banner-name .title{
+    font-weight: 500;
+}
+
+.banner-name .icon{
+    font-size: 22px;
+    padding-top: 4px;
+    font-weight: 500;
+}
+
+.banner-name p{
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1230px) {
+    .header-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 380px;
+    }
+
+    .header-list li{
+        font-size: 18px;
+    }
+
+    .header-icon{
+        margin-left: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .header-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 380px;
+    }
+
+    .header-list li{
+        font-size: 18px;
+    }
+
+    .header-icon{
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header-list{
+        margin-right: 50px;
+    }
+
+    .header-icon{
+        margin-left: 150px;
+    }
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 60px;
+    margin-bottom: 150px;
+    
+}
+
+.card-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    background-color: #F9F1E7;
+    width: 660px;
+    height: 55px;
+}
+
+.card-totals{
+    width: 255px;
+    height: 280px;
+    background-color: #F9F1E7;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    right: 100px;
+
+}
+
+.card-totals h3{
+    font-size: 21px;
+    font-weight: 600;
+    padding-bottom: 38px;
+
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    gap: 28px;
+    font-size: 14px;
+    line-height: 40px;
+
+}
+
+.total .subtotal{
+    font-size: 13px;
+    color: #9F9F9F;
+}
+
+.total .price{
+    color: #B88E2F;
+    font-weight: 500;
+}
+
+.total-btn{
+    padding-top: 30px;
+}
+
+.total-btn a{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 12px 40px;
+}
+
+.card{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 50px;
+}
