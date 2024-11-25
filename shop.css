@@ -251,22 +251,6 @@ header{
     display: none;
 }
 
-.product:hover{
-    .btn-hover{
-        display: block;
-    }
-    .product-price{
-        position: relative;
-        bottom: 83px;
-    }
-
-    .product-text{
-        position: relative;
-        bottom: 83px;
-    }
-    height: 413px;
-}
-
 .active{
     display: flex;
     align-items: center;
@@ -1002,4 +986,386 @@ footer p{
     .products-wrap{
         min-width: 210%;
     }
+}
+
+
+@media only screen and (max-width: 863px) {
+    .products-wrap{
+        width: 180%;
+        position: relative;
+        right: 110px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .products-wrap{
+        position: relative;
+        left: 1px;
+    }
+}
+
+@media only screen and (max-width: 718px) {
+    .product img{
+        width: auto;
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .products-wrap{
+        width: 200%;
+    }
+}
+
+@media only screen and (max-width: 589px) {
+    .products-wrap{
+        width: 230%;
+    }
+}
+
+@media only screen and (max-width: 514px) {
+    .product img{
+        width: auto;
+        height: 530px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .products-wrap{
+        width: 280%;
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .product img{
+        width: auto;
+        height: 900px;
+    }
+}
+
+
+@media screen and (max-width: 779px) {
+    .banner h2{
+        font-size: 3rem;
+    }
+
+    .banner-name p{
+        font-size: 1.9rem;
+    }
+
+    .header-list li{
+        font-size: 1.5rem;
+    }
+
+    .header-icon img{
+        width: auto;
+        height: 30px;
+    }
+
+    .header-icon{
+        position: relative;
+        right: 100px;
+    }
+
+    .results-wrap{
+        width: 180%;
+        font-size: 1.2rem;
+    }
+
+    .product-text h3{
+        font-size: 1.5rem;
+    }
+
+    .product-text p{
+        font-size: 1.2rem;
+    }
+
+    .product-price .new-price{
+        font-size: 1.3rem;
+    }
+
+    .product-price .old-price{
+        font-size: 1.1rem;
+    }
+
+    .product-btn{
+        width: 100%;
+        margin-left: 130px;
+    }
+
+    .product-btn a{
+        font-size: 1.5rem;
+        padding: 18px 25px;
+    }
+
+    .product-btn .next-btn{
+        font-size: 1.5rem;
+    }
+
+    .service{
+        font-size: 1.5rem;
+    }
+
+    .service p{
+        font-size: 1.8rem;
+    }
+
+    .shop-service{
+        width: 100%;
+        gap: 130px;
+        margin-left: 350px;
+    }
+
+    .footer p{
+        font-size: 2rem;
+    }
+
+    .footer-text h3{
+        font-size: 3rem;
+    }
+
+    .footer-text p{
+        font-size: 1.9rem;
+    }
+
+    .newsletter p{
+        font-size: 2.2rem;
+    }
+
+    .news-input input{
+        font-size: 1.8rem;
+    }
+
+    .newsletter a{
+        font-size: 1.8rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 756px) {
+    .footer-wrap{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .bottom-service{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+        margin-left: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 541px) {
+    .footer-wrap{
+        width: 150%;
+    }
+}
+
+
+@media only screen and (max-width: 361px) {
+    .footer-wrap{
+        width: 100vh;
+        position: relative;
+        right: 800px;
+
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .product-text h3{
+        font-size: 2.1rem;
+    }
+
+    .product-text p{
+        font-size: 1.9rem;
+    }
+
+    .product-price .new-price{
+        font-size: 1.9rem;
+    }
+
+    .product-price .old-price{
+        font-size: 1.7rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 381px) {
+    .product-text h3{
+        font-size: 3.2rem;
+    }
+
+    .product-text p{
+        font-size: 2.6rem;
+    }
+
+    .product-price .new-price{
+        font-size: 2.8rem;
+    }
+
+    .product-price .old-price{
+        font-size: 2.6rem;
+    }
+
+    .shop-service .service h3{
+        font-size: 2rem;
+        padding-bottom: 15px;
+    }
+
+    .service p{
+        font-size: 2.1rem;
+    }
+
+    .footer-wrap{
+        margin-top: 150px;
+    }
+
+    .shop-service{
+        margin-left: 360px;
+    }
+
+    .header-list li{
+        font-size: 2.2rem;
+    }
+
+    .header-list{
+        position: relative;
+        right: 230px;
+    }
+
+    .header-icon{
+        position: relative;
+        right: 380px;
+    }
+
+    .header-icon img{
+        width: auto;
+        height: 40px;
+    }
+
+    .header-logo h2{
+        font-size: 3rem;
+    }
+
+    .header-logo img{
+        width: auto;
+        height: 60px;
+        padding-left: 30px;
+    }
+
+
+    .product-btn .number-btn a{
+        font-size: 2.5rem;
+        padding: 22px 42px;
+    }
+
+    .product-btn .next-btn{
+        font-size: 2.6rem;
+        padding: 20px 30px;
+    }
+
+    .product-btn{
+        margin-left: 250px;
+    }
+
+    .banner h2{
+        font-size: 4rem;
+    }
+
+    .banner-name p{
+        font-size: 2.5rem;
+    }
+
+    .banner-name .icon{
+        font-size: 3rem;
+    }
+
+    .results-wrap p{
+        font-size: 2rem;
+    }
+
+    .result-text p{
+        width: 300px;
+    }
+
+    .results-wrap{
+        margin-left: 280px;
+        margin-top: 30px;
+    }
+
+    .result-icons img{
+        width: auto;
+        height: 35px;
+    }
+
+    .filter img{
+        width: auto;
+        height: 35px;
+    }
+
+    footer{
+        font-size: 2.5rem;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .header-list li{
+        font-size: 2.5rem;
+    }
+
+    .footer-text h3{
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 348px) {
+    .header-list{
+        position: relative;
+        right: 300px;
+    }
+
+    .header-icon{
+        position: relative;
+        right: 450px;
+    }
+
+    .footer-text h3{
+        font-size: 3.6rem;
+    }
+
+    .footer-text p{
+        font-size: 2.4rem;
+    }
+
+    .footer p{
+        font-size: 2.5rem;
+    }
+
+    .bottom-service{
+        position: relative;
+        right: 200px;
+    }
+
+    .news-input input{
+        font-size: 2.6rem;
+    }
+
+    .news-input a{
+        font-size: 2.6rem;
+    }
+
+    .news-input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
 }

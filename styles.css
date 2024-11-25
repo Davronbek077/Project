@@ -203,22 +203,6 @@ header{
     display: none;
 }
 
-.product:hover{
-    .btn-hover{
-        display: block;
-    }
-    .product-price{
-        position: relative;
-        bottom: 83px;
-    }
-
-    .product-text{
-        position: relative;
-        bottom: 83px;
-    }
-    height: 413px;
-}
-
 .active{
     display: flex;
     align-items: center;
@@ -839,7 +823,7 @@ footer p{
 @media only screen and (max-width: 460px) {
     .product img {
         width: auto;
-        height: 900px;
+        height: 1000px;
     }
 
     .products-title{
@@ -931,4 +915,137 @@ footer p{
     .product-price .old-price{
         font-size: 2.1rem;
     }
+
+    .banner-wrap img {
+        min-width: 100%;
+    }
+
+
 }
+
+@media only screen and (max-width: 450px) {
+    .banner p{
+        font-size: 30px;
+    }
+
+    .banner {
+        width: 550px;
+        height: 550px;
+    }
+
+    .cards img{
+        width: 430px;
+        height: auto;
+    }
+
+    .header-icon{
+        position: relative;
+        right: 180px;
+    }
+
+    .footer p{
+        font-size: 2.2rem;
+    }
+
+    .footer-text p{
+        font-size: 2.2rem;
+    }
+
+    .footer-text h3{
+        font-size: 3.4rem;
+    }
+
+    .furniro img{
+        position: relative;
+        left: 100px;
+    }
+
+    .collect-photo{
+        margin-left: 100px;
+    }
+
+    .header-list li{
+        font-size: 2.4rem;
+    }
+
+    .header-list{
+        position: relative;
+        right: 150px;
+    }
+
+    .header-icon{
+        position: relative;
+        right: 340px;
+    }
+
+    .header-icon img{
+        width: auto;
+        height: 38px;
+    }
+
+    .header-logo h2{
+        font-size: 3.2rem;
+    }
+
+    .header-logo img{
+        width: auto;
+        height: 60px;
+    }
+
+    .news-input{
+        gap: 50px;
+    }
+
+    .news-input input{
+        font-size: 2.1rem;
+    }
+
+    .footer-wrap{
+        width: 250%;
+        flex-wrap: wrap;
+        position: relative;
+        right: 400px;
+        gap: 200px;
+    }
+
+    footer{
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .bottom-service{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 230px;
+        margin-left: 280px;
+    }
+
+    .content-text p{
+        font-size: 2rem;
+    }
+
+    .content-text h2{
+        font-size: 2.8rem;
+    }
+
+    .content-text{
+        width: 100%;
+    }
+
+    .banner .banner-text{
+        font-size: 2rem;
+    }
+
+    .banner h2{
+        font-size: 2.9rem;
+    }
+
+}
+
+@media only screen and (max-width: 461px) {
+    .banner{
+        height: 560px;
+    }
+}
+
