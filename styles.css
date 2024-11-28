@@ -472,9 +472,7 @@ footer p{
 
 }
 
-body{
-    border: 1px solid red;
-}
+
 
 @media (max-width: 480px) {
     .header-icon img {
@@ -519,10 +517,6 @@ body{
     .product img{
         width: 350px;
         height: auto;
-    }
-
-    .products-wrap{
-        margin-right: 30px;
     }
 
     .furniro .imagef{
