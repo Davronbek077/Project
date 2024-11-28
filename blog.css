@@ -643,6 +643,332 @@ footer p{
 }
 
 
+@media screen and (max-width: 850px) {
+    .content-wrapper{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        position: relative;
+        right: auto;
+    }
+
+     .cards-img{
+        width: 1200px;
+        height: 100%;
+    }
+        .card{
+            margin-right: 160px;
+        }
+
+        .photo-icon .icon img{
+            width: 30px;
+            height: auto;
+        }
+
+        .photo-icon .icon p{
+            font-size: 38px;
+        }
+
+        .card-text h3{
+            font-size: 58px;
+        }
+
+        .card-text p{
+            font-size: 38px;
+        }
+        
+        .card-btn a{
+            font-size: 40px;
+        }
+
+        .content-container{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            margin-top: 700px;
+            margin-left: 300px;
+            
+        }
+
+        .content-catelog input{
+            width: 1200px;
+            height: 120px;
+        }
+
+        .content-catelog a i{
+            font-size: 65px;
+            position: absolute;
+            left: 1090px;
+            padding-top: 18px;
+        }
+
+        .catelog-text h3{
+            font-size: 50px;
+        }
+
+        .info p{
+            font-size: 45px;
+        }
+
+        .info{
+            line-height: 120px;
+        }
+
+        .content-posts{
+            margin-left: 160px;
+            margin-top: 400px;
+        }
+
+        .content-posts h3{
+            font-size: 58px;
+        }
+
+        .post-text .post-title{
+            font-size: 60px;
+            width: 780px;
+        }
+
+        .post-text p{
+            font-size: 45px;
+        }
+
+        .post-card img{
+            width: 230px;
+            height: auto;
+        }
+
+        .post-card{
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .content-btn .number-btn a{
+            font-size: 50px;
+            padding: 20px 40px;
+        }
+
+        .content-btn .next-btn{
+            font-size: 50px;
+            padding: 20px;
+        }
+
+        .shop-service{
+            width: 100%;
+            margin-left: 140px;
+
+        }
+
+
+        .service h3{
+            font-size: 40px;
+            padding-bottom: 25px;
+            line-height: 45px;
+        }
+
+        .service p{
+            font-size: 35px;
+        }
+
+        .service img{
+            width: 80px;
+            height: auto;
+
+        }
+
+
+        .footer-text h3{
+            font-size: 55px;
+        }
+
+        .footer-text p{
+            font-size: 38px;
+        }
+
+        .footer p{
+            font-size: 38px;
+        }
+
+        .newsletter p{
+            font-size: 36px;
+        }
+
+        .newsletter input{
+            font-size: 38px;
+        }
+
+        .news-input a{
+            font-size: 35px;
+        }
+
+        .footer-wrap{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .bottom-footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 180px;
+        }
+
+        .bottoms{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        }
+
+        .header-list li{
+            font-size: 40px;
+        }
+
+        .header-logo h2{
+            font-size: 58px;
+        }
+
+        .header-logo img{
+            width: 88px;
+            height: auto;
+        }
+
+        .header-list{
+            position: relative;
+            right: 230px;
+        }
+
+        .header-icon{
+            position: relative;
+            right: 400px;
+        }
+
+        .header-icon img{
+            width: 43px;
+            height: auto;
+        }
+
+        .banner h2{
+            font-size: 70px;
+        }
+
+        .banner p{
+            font-size:38px
+        }
+
+        .banner .icon{
+            font-size: 40px;
+        }
+}
+
+.sidebar{
+    width: 600px;
+    height: 900px;
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    bottom: 10750px;
+    transform: translate(-600px);
+    transition: all 0.3s ease;
+}
+
+.sidebar-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 80px;
+}
+
+.sidebar-logo h2{
+    font-size: 60px;
+}
+
+.sidebar-logo img{
+    width: 100px;
+    height: auto;
+}
+
+.menu{
+    width: 30%;
+    padding-top: 100px;
+    padding-left: 80px;
+    line-height: 75px;
+}
+
+.menu a{
+    font-size: 43px;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar i{
+    font-size: 88px;
+    padding-left: 475px;
+    padding-top: 10px;
+}
+
+.header-logo i{
+    font-size: 80px;
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .header-logo i{
+        display: block;
+    }
+
+    .header-list{
+        display: none;
+    }
+
+    .header-icon{
+        position: relative;
+        left: 350px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .header-list {
+        position: relative;
+        right: 320px;
+    }
+
+    .header-icon{
+        position: relative;
+        right: 500px;
+    }
+}
+
+
+@media screen and (max-width: 735px) {
+    .bottoms{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .shop-service{
+        position: relative;
+        left: 350px;
+    }
+}
+
+@media screen and (max-width: 503px) {
+    .shop-service{
+        position: relative;
+        left: 400px;
+    }
+}
+
+
 @media screen and (max-width: 500px) {
     .banner-wrap{
         min-width: 300%;

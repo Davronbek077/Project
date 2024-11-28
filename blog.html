@@ -14,6 +14,7 @@
 <body>
     <header>
         <div class="header-logo">
+            <i onclick="enter()" class='bx bx-menu' ></i>
             <img src="./Meubel House_Logos-05.png" alt="">
             <h2>Furniro</h2>
         </div>
@@ -49,7 +50,7 @@
         <div class="content-card">
             <div class="card">
                 <div class="card-photo">
-                    <img src="Rectangle 68.png" alt="">
+                    <img class="cards-img" src="Rectangle 68.png" alt="">
                     <div class="photo-icon">
                         <div class="icon">
                             <img src="Vector (17).png" alt="">
@@ -87,7 +88,7 @@
             </div>
             <div class="card">
                 <div class="card-photo">
-                    <img src="Rectangle 68 (1).png" alt="">
+                    <img class="cards-img" src="Rectangle 68 (1).png" alt="">
                     <div class="photo-icon">
                         <div class="icon">
                             <img src="Vector (17).png" alt="">
@@ -125,7 +126,7 @@
             </div>
             <div class="card">
                 <div class="card-photo">
-                    <img src="Rectangle 68 (2).png" alt="">
+                    <img class="cards-img" src="Rectangle 68 (2).png" alt="">
                     <div class="photo-icon">
                         <div class="icon">
                             <img src="Vector (17).png" alt="">
@@ -274,6 +275,7 @@
     </div>
     <hr class="line">
     <div class="footer-wrap">
+       <div class="bottoms">
         <div class="footer-text">
             <h3>Funiro.</h3>
             <p>400 University Drive Suite 200 Coral Gables,</p>
@@ -287,19 +289,22 @@
             <p>Contact</p>
             <p>Blog</p>
         </div>
+       </div>
 
-        <div class="footer">
-            <p class="footer-title">Help</p>
-            <p>Payment Options</p>
-            <p>Returns</p>
-            <p>Privacy Policies</p>
-        </div>
-
-        <div class="newsletter">
-            <p>Newsletter</p>
-            <div class="news-input">
-            <input type="text" placeholder="Enter Your Email Address">
-            <a href="">SUBSCRIBE</a>
+        <div class="bottom-footer">
+            <div class="footer">
+                <p class="footer-title">Help</p>
+                <p>Payment Options</p>
+                <p>Returns</p>
+                <p>Privacy Policies</p>
+            </div>
+    
+            <div class="newsletter">
+                <p>Newsletter</p>
+                <div class="news-input">
+                <input type="text" placeholder="Enter Your Email Address">
+                <a href="">SUBSCRIBE</a>
+                </div>
             </div>
         </div>
 
@@ -308,11 +313,25 @@
         </div>
         
     </div>
+
+    <div class="sidebar">
+        <i onclick="exit()" class='bx bx-menu-alt-left'></i>
+        <div class="sidebar-logo">
+            <img src="./Meubel House_Logos-05.png" alt="">
+            <h2>Furniro</h2>
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
     <footer>
         <hr>
         <p>2023 furino. All rights reverved</p>
     </footer>
 
-    <script src="card.js"></script>
+    <script src="sidebar.js"></script>
 </body>
 </html>

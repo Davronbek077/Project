@@ -336,6 +336,32 @@ footer p{
 
 }
 
+@media screen and (max-width: 900px) {
+    .header-list li{
+        font-size: 30px;
+    }
+
+    .header-logo h2{
+        font-size: 40px;
+    }
+
+    .header-list{
+        position: relative;
+        right: 100px;
+    }
+
+    .header-icon{
+        position: relative;
+        right: 200px;
+    }
+
+    .header-icon img{
+        width: 30px;
+        height: auto;
+    }
+}
+
+
 @media screen and (max-width: 800px) {
     .header-list{
         display: flex;
@@ -345,15 +371,30 @@ footer p{
     }
 
     .header-list li{
-        font-size: 18px;
-    }
-
-    .header-icon{
-        margin-left: 300px;
+        font-size: 30px;
     }
 
     .contact-text{
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .header-icon{
+        position: relative;
+        right: 300px;
+    }
+}
+
+@media screen and (max-width: 716px) {
+    .header-list{
+        position: relative;
+        right: 220px;
+    }
+
+    .header-icon{
+        position: relative;
+        right: 400px;
     }
 }
 
@@ -398,6 +439,52 @@ footer p{
         align-items: center;
         justify-content: center;
     }
+
+    .contact-text{
+        width: 100%;
+        position: relative;
+        right: 100px;
+        
+    }
+
+    .contact-text h2{
+        font-size: 35px;
+    }
+
+    .contact-text p{
+        font-size: 23px;
+    }
+
+    .banner-wrapper{
+        margin-left: 600px;
+    }
+
+    .info-text h3{
+        font-size: 28px;
+    }
+
+    .info-text p{
+        font-size: 25px;
+    }
+
+    .submit input{
+        width: 530px;
+        height: 70px;
+        font-size: 22px;
+    }
+
+    .submit p{
+        font-size: 25px;
+    }
+
+    .submit .massage{
+        padding-bottom: 120px;
+        padding-top: 40px;
+    }
+
+    .submit-btn a{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -407,6 +494,28 @@ footer p{
         align-items: center;
         justify-content: center;
     }
+
+    .header-list{
+        margin-left: 500px;
+    }
+
+    .header-list li{
+        font-size: 40px;
+    }
+
+    .header-icon img{
+        width: 40px;
+    }
+
+    .header-logo h2{
+        font-size: 50px;
+    }
+
+    .header-logo img{
+        width: 80px;
+        height: auto;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -435,24 +544,14 @@ footer p{
 }
 
 @media screen and (max-width: 700px) {
-    .banner-wrapper{
-        position: relative;
-        left: 150px;
-    }
-
-    .contact-text{
-        position: relative;
-        left: 70px;
-    }
-
     .shop-service{
         position: relative;
-        left: 150px;
+        left: 60px;
     }
 
-    
-
 }
+
+
 
 @media screen and (max-width: 1245px) {
     .banner{
@@ -564,7 +663,7 @@ footer p{
     }
 
     .banner-wrapper{
-        margin-left: 500px;
+        margin-left: 670px;
     }
 
     .info-text h3{
@@ -591,11 +690,13 @@ footer p{
     }
 
     .submit .massage{
-        width: 550px;
+        width: 720px;
         height: 180px;
         padding-bottom: 100px;
 
+
     }
+
 
     .info img{
         width: auto;
@@ -603,7 +704,7 @@ footer p{
     }
 
     .contact-text{
-        margin-left: 450px;
+        margin-left: 500px;
     }
 
     .footer-wrap{
@@ -660,6 +761,157 @@ footer p{
 
 }
 
+@media screen and (max-width: 380px) {
+    .banner-wrapper{
+        position: relative;
+        right: 900px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-text h2{
+        font-size: 48px;
+    }
+
+    .contact-text p{
+        font-size: 30px;
+    }
+
+    .contact-text{
+        margin-left: 620px;
+    }
+
+    .banner-wrapper{
+        position: relative;
+        left: 220px;
+    }
+
+    .info-text h3{
+        font-size: 48px;
+    }
+
+    .info-text p{
+        width: 380px;
+        font-size: 35px;
+    }
+
+    .submit input{
+        width: 720px;
+        height: 100px;
+        font-size: 35px;
+    }
+
+    .submit p{
+        font-size: 38px;
+    }
+
+    .submit .massage{
+        padding-bottom: 180px;
+        padding-top: 50px;
+    }
+
+    .submit-btn a{
+        font-size: 35px;
+    }
+
+    .shop-service{
+        width: 170%;
+    }
+
+    .service h3{
+        font-size: 35px;
+        padding-bottom: 15px;
+        line-height: 50px;
+    }
+
+    .shop-service p{
+        font-size: 33px;
+        line-height: 40px;
+    }
+
+    .shop-service img{
+        width: 80px;
+        height: auto;
+    }
+
+    .footer-text h3{
+        font-size: 48px;
+    }
+
+    .footer-text p{
+        font-size: 35px;
+    }
+
+    .footer p{
+        font-size: 35px;
+    }
+
+    .newsletter p{
+        font-size: 36px;
+    }
+
+    .news-input input{
+        font-size: 36px;
+    }
+
+    .news-input a{
+        font-size: 33px;
+    }
+
+    .footer-wrap{
+        flex-wrap: wrap;
+        width: 130%;
+    }
+
+    .bottom-service{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 180px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .shop-service{
+        margin-left: 300px;
+        gap: 120px;
+    }
+}
+
+@media screen and (max-width: 443px) {
+    .footer-wrap{
+        width: 140%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .footer-wrap{
+        width: 150%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .shop-service{
+        width: 220%;
+    }
+
+    .service h3{
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+    .service p{
+        font-size: 38px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .banner-submit{
+        margin-right: 200px;
+    }
+}
+
 @media only screen and (max-width: 387px) {
     .footer-wrap{
         width: 180%;
@@ -672,5 +924,11 @@ footer p{
 @media only screen and (max-width: 341px) {
     .bottom-service{
         margin-right: 200px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .banner-wrapper{
+
     }
 }
