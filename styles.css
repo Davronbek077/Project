@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     border: 1-x solid red;
+
+}
+
+body{
+    width: 100%;
+
 }
 
 
@@ -248,7 +254,6 @@ header{
 .collection-wrap{
     width: 100%;
     height: 600px;
-    background-color: #FCF8F3;
     padding-left: 30px;
 }
 
@@ -467,6 +472,10 @@ footer p{
 
 }
 
+body{
+    border: 1px solid red;
+}
+
 @media (max-width: 480px) {
     .header-icon img {
         width: 20px;
@@ -482,23 +491,13 @@ footer p{
 }
 
 @media screen and (max-width: 420px) {
-    body{
-        margin-left: 40px;
-        padding: 1px 135px;
-    }
 
     .collection-wrap{
         position: relative;
-        right: 200px;
+        right: 28px;
 
     }
 
-
-    .furniro-title p{
-        width: 200px;
-        position: relative;
-
-    }
 
     .furniro-title{
         position: relative;
@@ -509,18 +508,6 @@ footer p{
         margin-left: 80px;
     }
 
-    .content-text p{
-        width: 300px;
-        position: relative;
-        right: 150px;
-    }
-
-    .content-text h2{
-        width: 200px;
-        position: relative;
-        right: 100px;
-    }
-
     .product-btn a{
         display: flex;
         align-items: center;
@@ -529,16 +516,58 @@ footer p{
         right: 60px;
     }
 
+    .product img{
+        width: 350px;
+        height: auto;
+    }
+
+    .products-wrap{
+        margin-right: 30px;
+    }
+
+    .furniro .imagef{
+        width: 300px;
+        height: auto;
+    }
     
+    .collection-wrap{
+        width: 300px;
+    }
+
+    .cards img{
+        width: 330px;
+        height: auto;
+    }
+
+    .furniro{
+        margin-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .collect-text{
+        width: 100%;
+        position: relative;
+        right: 30px;
+    }
+
+    .furniro .imagef{
+        width: 300px;
+    }
+
+    .collect-photo{
+        position: relative;
+        left: 18px;
+    }
+
+
 }
 
 @media screen and (max-width: 360px) {
-    body{
-        margin-left: 80px;
-    }
 
     .product img{
-        width: 400px;
+        width: 300px;
     }
 
     .products-wrap{
@@ -586,5 +615,6 @@ footer p{
         display: none;
     }
 
+  
     
 }
